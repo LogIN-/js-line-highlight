@@ -1,0 +1,37 @@
+/* 
+* @Author: login
+* @Date:   2014-10-23 13:28:00
+* @Last Modified by:   login
+* @Last Modified time: 2014-10-24 08:54:28
+*/
+
+.highlighter {
+    background-color: rgba(25, 188, 156, 0.1);
+    display: none;
+    height: auto;
+    width: auto;
+    /*transition*/
+    
+    -webkit-transition: all 500ms ease 0s;
+    -moz-transition: all 500ms ease 0s;
+    -o-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+    /*border-radius*/
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    pointer-events:none;
+}
+.highlighter-actions {
+    display: block;
+    float: right;
+    height: 100%;
+    width: 15px;
+}
+.highlighter-link {
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}

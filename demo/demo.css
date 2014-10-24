@@ -1,0 +1,132 @@
+/* 
+* @Author: login
+* @Date:   2014-10-24 08:53:34
+* @Last Modified by:   login
+* @Last Modified time: 2014-10-24 08:54:21
+*/
+* {
+    padding: 0;
+    margin: 0;
+}
+::selection {
+  background: #00A8EC; /* WebKit/Blink Browsers */
+  color: #FFFFFF;
+}
+::-moz-selection {
+  background: #00A8EC; /* Gecko Browsers */
+  color: #FFFFFF;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #19BC9C;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#header {
+    background-color: #00a8ec;
+    float: left;
+    height: 150px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#header h1 {
+    color: #ffffff;
+    margin: 45px 15px 15px;
+    text-align: center;
+}
+#header h2 {
+    color: #ffffff;
+    margin: 15px;
+    text-align: center;
+}
+.article-detail h3, .article-detail h4, .article-detail h5, .article-detail h6 {
+    font-weight: 700;
+    margin: 52.5px 0 30px;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 24.5px;
+}
+h1, h2, h3 {
+    line-height: 40px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 10px 0;
+    text-rendering: optimizelegibility;
+}
+.article-detail .column {
+    margin: 0 auto;
+    padding: 25px;
+    width: 65%;
+}
+.article-detail p + p {
+    margin-top: 30px;
+}
+.article-detail ul {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+ul, ol {
+    margin: 0 0 10px 25px;
+    padding: 0;
+}
+.article-detail {
+    clear: left;
+    font-family: "Lora", Georgia, "Times New Roman", Times, serif;
+    font-size: 21px;
+    line-height: 30px;
+    margin: 175px auto 0;
+    position: relative;
+}
+#hover-it {
+    background-color: #FFFFFF;
+
+    -webkit-box-shadow: 9px 10px 24px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 10px 24px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 10px 24px -13px rgba(0, 0, 0, 0.75);
+    
+    /*border-radius*/
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.github-fork img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    width: 149px;
+    height: 149px;
+}
+.container {
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    width: 1170px;
+}
+/*
+ *   Footer styles
+ */
+
+footer {
+    bottom: 0;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    color: white;
+    background-color: #2C3E50;
+    opacity: 0.5;
+}
+footer a, footer a:hover, footer a:active {
+    color: white;
+    text-decoration: none;
+}

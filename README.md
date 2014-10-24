@@ -8,10 +8,10 @@ I've tested it only in latest Firefox, chrome/ium and opera.
 
 ## Get started
 You can easily clone this repo or just download files.
-You have example in demo `demo` folder.
+You have an example in demo `demo` folder.
 
 ## Support and Bugs
-If you are having trouble, have found a bug, or want to contribute don't be shy.
+If you are having problems, have found a bug, or want to contribute don't be shy.
 [Open a ticket](https://github.com/LogIN-/js-line-highlight/issues) on GitHub.
 
 ## License

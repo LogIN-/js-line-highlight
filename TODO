@@ -1,3 +1,2 @@
-* Add  polyfills to extend support on IE
 * Shortcuts in highlighted div so it can be accessed vie direct URL hash link: ..url..#{highlight-id}{S}1-{L}3
     Where {S} is section and {L} is line number

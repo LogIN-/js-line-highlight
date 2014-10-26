@@ -10,7 +10,14 @@
         <link rel="stylesheet" type="text/css" href="../lib/highlight-main.css">
         <script type="text/javascript">
             document.addEventListener("DOMContentLoaded", function(e) {
-                new lineHighlight("#hover-it");
+                var options = {
+                    el: "#hover-it",
+                    ignoredEl: ['UL', 'A', 'B', 'IMG', 'CANVAS', 'INPUT', 'SELECT', 'TEXTAREA', 'STRONG', 'EM'],
+                    linkShortcut: true,
+                    shortcutHtml: "☑",
+                    customClass: 'highlighter01'
+                };
+                new lineHighlight(options);
             });
         </script>
     </head>
@@ -19,12 +26,9 @@
         <h1>Javascript paragraph text underline - highlight</h1>
         <h2>Finally you can enable your visitors better reading experience of your content!</h2>
     </div>
-    <!-- 
-    I borrowed this blog post from following author:
-        http://robmadole.com/ 
-    -->
     <div class="article-detail">
         <div id="hover-it" role="article-body" class="column">
+            <h3>I borrowed this post from following <a target="_blank" href="http://robmadole.com/">author</a>:</h3>
             <p>
                 It's still common to see the term "ninja" or "rock star" in the titles of many job postings for software engineers and developers. Companies are trying to appeal to a set of self-labeling individuals of a particular type. I don't believe that companies literally want ninjas or rock stars. Ninjas kill people and throw pointy objects; rock stars play loud music, occasionally have substance abuse issues and trash hotel rooms. They don't build software.
             </p>
@@ -283,7 +287,7 @@
     </div>
     <footer>
         <div class="container">
-            <a href="https://github.com/LogIN-/js-line-highlight" target="_blank">GitHub</a> |  <span>GPL Licence</span>
+            <a href="https://github.com/LogIN-/js-line-highlight" target="_blank">GitHub</a> |  <span>MIT Licence</span>
         </div>
     </footer>
 

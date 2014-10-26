@@ -4,7 +4,7 @@ Enables you to give your visitors better reading experience of your content.
 On element where initialized it will track user mouse movements and automatically 
 highlight text he is currently reading.
 
-I've tested it only in latest Firefox, chrome/ium and opera.
+I've only tested it in latest Firefox, chrome/ium and opera.
 
 ## Get started
 You can easily clone this repo or just download files.
